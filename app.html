@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hack Forge</title>
+  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <!-- <link rel="stylesheet" href="css/animate.css"> -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  
+ </head>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">
+      <!-- <img src="images/darklogo.jpg"alt="College Logo"> -->
+      <img src="images/mainlogofinal.png"alt="College Logo">
+     
+      
+      
+    </div>
+    <div class="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul id="nav-menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#domains">Domains</a></li>
+      <li><a href="#prizes">Prizes</a></li>
+      <li><a href="#sponsors">Sponsors</a></li>
+      
+      <li><a href="#rules">Faqs</a></li>
+
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- header header -->
+  <header id="Home">
+
+    <h4>welcome To</h4>
+    <div class="glow">
+      <!-- <h1>HACK Forge</h1> -->
+      <h1>
+        <span>H</span><span>a</span><span>c</span><span>k</span>
+        <span>F</span><span>o</span><span>r</span><span>g</span><span>e</span>
+      </h1>
+  
+    </div>
+    <p>Join us for an extraordinary hackathon experience where innovation meets creativity.</p>
+     <!-- Animated Register Button -->
+  <a href="/Reg.html" class="register-btn">
+    <span>Register</span>
+  </a>
+    <!-- <a href="/Reg.html">Register</a> -->
+    <br/>
+    <div class="timer" id="timer">
+      <div class="timer-box">
+        <span id="days">00</span>
+        <label>Days</label>
+      </div>
+      <div class="timer-box">
+        <span id="hours">00</span>
+        <label>Hrs</label>
+      </div>
+      <div class="timer-box">
+        <span id="minutes">00</span>
+        <label>Min</label>
+      </div>
+      <div class="timer-box">
+        <span id="seconds">00</span>
+        <label>Sec</label>
+      </div>
+
+    </div>
+    
+  </header>
+<!--aboutstart-->
+<section id="about" class="about-section">
+  <div class="about-header">
+    <h1>About <span>Hack Forge</span></h1>
+    <p>
+      Hack Forge is a platform built to showcase innovation and creativity. It challenges participants to think outside the box, solve real-world problems, and build cutting-edge solutions. Whether you're a beginner or a seasoned hacker, Hack Forge offers an inclusive environment to showcase your skills and grow.
+    </p>
+  </div>
+
+  <div class="features">
+    <div class="feature">
+      
+      <h3>Vision</h3>
+      <p>To inspire and empower the next generation of innovators by providing a platform to learn, create, and compete.</p>
+    </div>
+
+    <div class="feature">
+      
+      <h3> Mission</h3>
+      <p>To be an event that drives technological advancements and fosters collaboration between students.</p>
+    </div>
+
+    <div class="feature">
+     
+      <h3>Network</h3>
+      <p>Workshops, mentorship, networking opportunities, and an exciting environment to build and showcase your ideas.</p>
+    </div>
+
+    <div class="feature">
+     
+      <h3>Innovation</h3>
+      <p>Encouraging participants to develop groundbreaking solutions through creativity and technical skills.</p>
+    </div>
+  </div>
+</section>
+
+<!--aboutend-->
+    <!-- Domains Section -->
+    <section id="domains" class="domains">
+      <h1>Domains</h1>
+  
+      <div class="domains-grid">
+        <div class="domain-card">
+          <i class="fa-solid fa-brain icon"></i>
+          <h3>Artificial Intelligence</h3>
+          <p>Leverage the power of AI to solve real-world problems. Build intelligent systems that can revolutionize industries.</p>
+        </div>
+        <div class="domain-card">
+          <i class="fa-solid fa-lightbulb icon"></i>
+          <h3>Open Innovation</h3>
+          <p>Collaborate and share ideas to drive innovation. Harness the power of collective creativity to solve complex challenges.</p>
+        </div>
+        
+        <div class="domain-card">
+          <i class="fa-solid fa-heart-pulse icon"></i>
+          <h3>Healthcare</h3>
+          <p>Design solutions that improve patient care, streamline healthcare processes, and enhance lives.</p>
+        </div>
+        <div class="domain-card">
+          <i class="fa-solid fa-chart-line icon"></i>
+          <h3>Finance</h3>
+          <p>Create innovative financial tools and platforms for smarter money management and decision-making.</p>
+        </div>
+        <div class="domain-card">
+          <i class="fa-solid fa-graduation-cap icon"></i>
+          <h3>Education Technology</h3>
+          <p>Develop platforms that make learning more accessible, engaging, and effective for everyone.</p>
+        </div>
+        <div class="domain-card">
+          <i class="fa-solid fa-leaf icon"></i>
+          <h3>Sustainability</h3>
+          <p>Innovate solutions for a greener future. Tackle challenges in energy, environment, and sustainability.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--timeline-->
+  <section id="timeline-section" class="timeline-section">
+    <h1>Hackathon Timeline</h1>
+    <p>Journey through the 12-hour hackathon with linked events!</p>
+    <div class="timeline-container">
+      <div class="timeline">
+        <!-- Timeline Items -->
+        <div class="timeline-item">
+          <div class="circle"></div>
+          <div class="content">
+            <h3>Registration</h3>
+            <p>Participants sign in and prepare to hack!</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="circle"></div>
+          <div class="content">
+            <h3>Hacking Round 1</h3>
+            <p>Let the coding begin!</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="circle"></div>
+          <div class="content">
+            <h3>Evaluation Round 1</h3>
+            <p>First round of project assessments by judges.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="circle"></div>
+          <div class="content">
+            <h3>Hacking Round 2</h3>
+            <p>Keep refining your ideas!</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="circle"></div>
+          <div class="content">
+            <h3>Evaluation Round 2</h3>
+            <p>Another round of evaluations and feedback.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="circle"></div>
+          <div class="content">
+            <h3>Hacking Round 3</h3>
+            <p>Final touches to your projects!</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="circle"></div>
+          <div class="content">
+            <h3>Evaluation Round 3</h3>
+            <p>Final project evaluations by the judges.</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="circle"></div>
+          <div class="content">
+            <h3>Winner Announcement</h3>
+            <p>Celebrate the champions!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+<!--timeend-->
+      <!-- Prizes Section -->
+  <section id="prizes" class="prizes">
+    <h1>Prizes</h1>
+    <div class="prizes-grid contaier-fluid">
+      <div class="prize-card second-prize">
+        <!-- <i class="fas fa-medal prize-icon"></i> -->
+        <i class="fas fa-trophy prize-icon"></i>
+        <span class="place-number">2</span>
+        <h3>Second-Prize </h3>
+              
+        <span>₹10,000</span>
+
+      </div>
+      <div class="prize-card first-prize">
+        <!-- <i class="fas fa-crown prize-icon"></i> -->
+        <i class="fas fa-trophy prize-icon"></i>
+        <span class="place-number">1</span>
+        <h3>First-Prize </h3>
+        <span>₹20,000</span>
+      </div>
+      <div class="prize-card third-prize">
+        <!-- <i class="fas fa-trophy prize-icon"></i> -->
+        <i class="fas fa-trophy prize-icon">
+          <span class="place-number">3</span>
+        </i>
+        <h3>Third-Prize </h3>
+        <span>₹5,000</span>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <section id="sponsors" class="sponsors">
+    <h1>Our Sponsors</h1>
+    <p>We thank our sponsors for their contributions that make Hack Forge a reality.</p>
+    
+    <div class="slider-container">
+      <div class="slider-track">
+        <!-- Sponsor Cards -->
+        <div class="sponsor-card">
+          <img src="images/soft_px.png" alt="Sponsor 1 Logo">
+         
+        </div>
+        <div class="sponsor-card">
+          <img src="images/dental_px.png" alt="Sponsor 2 Logo">
+        
+        </div>
+        <div class="sponsor-card">
+          <img src="images/ec_px.png" alt="Sponsor 3 Logo">
+        
+        </div>
+        <div class="sponsor-card">
+          <img src="images/soft_px.png" alt="Sponsor 4 Logo">
+      
+        </div>
+        <div class="sponsor-card">
+          <img src="images/dental_px.png" alt="Sponsor 5 Logo">
+        
+        </div>
+        <!-- Duplicate cards for smooth infinite scrolling -->
+        <div class="sponsor-card">
+          <img src="images/ec_px.png" alt="Sponsor 1 Logo">
+          
+        </div>
+        <div class="sponsor-card">
+          <img src="images/soft_px.png" alt="Sponsor 2 Logo">
+          
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!--rules-->
+<section id="rules" class="rules">
+  <div class="rules-container">
+    <h1>frequently asked questions</h1>
+    <ul class="rules-list">
+      <!-- Rule 1 -->
+      <li class="rule-item">
+        <h3>Can I participate individually or is a team mandatory ?</h3>
+        <i class="fas fa-chevron-down icon"></i>
+        <div class="rule-description">
+          You can participate individually. But since our goal is to promote a sense of unity & teamwork, it is encouraged to enroll as at least a team of 2 or as a group of maximum 3 members.
+        </div>
+      </li>
+      <!-- Rule 2 -->
+      <li class="rule-item">
+        <h3>What are the guidelines for team formation ?</h3>
+        <i class="fas fa-chevron-down icon"></i>
+        <div class="rule-description">
+          The members of a team can be from different branches, years or colleges. As long as they are a student of computer science (CSE, Ai&DS, IT, BCA etc.)
+        </div>
+      </li>
+      <!-- Rule 3 -->
+      <li class="rule-item">
+        <h3>Will there be swag ?</h3>
+        <i class="fas fa-chevron-down icon"></i>
+        <div class="rule-description">
+          Along side certificates, mementos & of course the cash prize, participants & winners will receive swags.
+        </div>
+      </li>
+      <!-- Rule 4 -->
+      <li class="rule-item">
+        <h3>Are Ai tools allowed ?</h3>
+        <i class="fas fa-chevron-down icon"></i>
+        <div class="rule-description">
+          Yes, the use of Ai tools is allowed.
+          However, its use case must be explicitly citied whenever & wherever they are used.
+        </div>
+      </li>
+      <!-- Rule 5 -->
+      <li class="rule-item">
+        <h3>Do I need to pay money to register for the Hackathon ?</h3>
+        <i class="fas fa-chevron-down icon"></i>
+        <div class="rule-description">
+          Yes, the ticket for an individual is Rs.250 & Rs.50 shall be added for every additional member.
+        </div>
+      </li>
+      <!-- Rule 6 -->
+      <li class="rule-item">
+        <h3>How detailed must the idea/presentation be ?</h3>
+        <i class="fas fa-chevron-down icon"></i>
+        <div class="rule-description">
+          A clear & concise presentation is always preferred, as long as it portrays your idea properly.
+        </div>
+      </li>
+            <!-- Rule 7 -->
+            <li class="rule-item">
+              <h3>What will the accommodation, facilities & hospitality include ?
+              </h3>
+              <i class="fas fa-chevron-down icon"></i>
+              <div class="rule-description">
+                The students are to remain in the designated locations for the duration of the hackathon, internet access shall be available for everyone alongside access to power outlets, nonetheless it is advised for larger teams to carry extension boxes to accommodate multiple devices.
+                The organizers shall provide lunch to all participating students, snack stalls shall also be present.
+                
+              </div>
+            </li>
+    </ul>
+  </div>
+</section>  
+
+
+<!--contact-->
+      <section class="contact-section">
+        <h1>Contact</h1>
+        <p>Stay connected with us! Reach out via Discord or Email for any queries.</p>
+        <div class="contact-container">
+          <!-- Discord Contact -->
+          <div class="contact-item">
+            <div class="circle">
+              <i class="fab fa-discord"></i> <!-- Discord FontAwesome Icon -->
+            </div>
+            <h3>Discord Channel</h3>
+            <a href="https://discord.com/invite/your-channel" target="_blank" class="contact-link">Join Our Discord</a>
+          </div>
+      
+          <!-- Email Contact -->
+          <div class="contact-item">
+            <div class="circle">
+              <i class="fas fa-envelope"></i> <!-- Email FontAwesome Icon -->
+            </div>
+            <h3>Email Us</h3>
+            <a href="mailto:islecdeancse@gmail.com" class="contact-link">islecdeancse@gmail.com</a>
+          </div>
+        </div>
+      </section>
+      
+
+
+
+      <footer id="contact">
+      <!-- <div class="contact-grid">
+        <div class="contact-card">
+          <i class="fas fa-user icon"></i>
+          <h3>Coordinator 1</h3>
+          <p><strong>Phone:</strong> +91 98765 43210</p>
+          <p><strong>Email:</strong> coordinator1@example.com</p>
+        </div>
+        <div class="contact-card">
+          <i class="fas fa-user icon"></i>
+          <h3>Coordinator 2</h3>
+          <p><strong>Phone:</strong> +91 87654 32109</p>
+          <p><strong>Email:</strong> coordinator2@example.com</p>
+        </div>
+        <div class="contact-card">
+          <i class="fas fa-user icon"></i>
+          <h3>Coordinator 3</h3>
+          <p><strong>Phone:</strong> +91 76543 21098</p>
+          <p><strong>Email:</strong> coordinator3@example.com</p>
+        </div>
+      </div> -->
+      <!-- Footer Section -->
+
+      <!-- Location Section -->
+<div class="maps container-fluid text-center bg-light p-5">
+  <h4 class="mb-4">Location</h4>
+  <iframe 
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3809.2096980747665!2d78.45352777591656!3d17.305428583567885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcbbd3ebea49e73%3A0x2c6540f20eaa31f5!2sISL%20Engineering%20College!5e0!3m2!1sen!2sin!4v1737284843384!5m2!1sen!2sin" 
+   
+    height="400" 
+    style="border:0; border-radius: 8px;" 
+    allowfullscreen="" 
+    loading="lazy" 
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</div>
+      <!-- Social Media Section -->
+      <div class="social-section">
+        <p>Follow us on</p>
+        <div class="social-icons">
+          <!-- <a href="https://discord.com" target="_blank" class="fab fa-discord" title="Discord"></a>           -->
+          <a href="https://in.linkedin.com/school/isl-engineering-college/" target="_blank" class="fab fa-linkedin" title="LinkedIn"></a>
+          <a href="https://www.instagram.com/islengineeringcollege?igsh=MTB3aml5dXBxOWMyZQ==" target="_blank" class="fab fa-instagram" title="Instagram"></a>
+          <a href="https://islec.edu.in/" class="fas fa-graduation-cap" title="Email"></a>
+
+        </div>
+      </div>
+  
+      <!-- Copyright -->
+      <div class="copyright">
+        &copy; 2025 Hack Forge. All rights reserved.
+      </div>
+
+    </footer>
+  <!-- Additional headers can be dynamically generated for About, Sponsors, Prizes, etc. -->
+  <!-- JavaScript Files -->
+  <script src="js/app.js"></script>
+
+</body>
+</html>

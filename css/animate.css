@@ -1,0 +1,31 @@
+
+.maps h1 {
+  font-size: 2.5rem;
+  color: green;
+}
+
+iframe {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.copyright a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.copyright a:hover {
+  text-decoration: underline;
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  .maps h1 {
+    font-size: 2rem;
+  }
+
+  .social-icons a {
+    font-size: 1.3rem;
+  }
+}
+
